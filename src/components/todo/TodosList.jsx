@@ -11,7 +11,7 @@ function TodosList() {
 		<ul className='todos-list'>
 			{todos.map((todo) => {
 				return (
-					<Todo todos={todos} todo={todo} key={todo.id}></Todo>
+					<Todo todo={todo} key={todo.id}></Todo>
 				)
 			})}
 		</ul>
